@@ -97,6 +97,7 @@ void arctechContactInit(void) {
 
 	protocol_register(&arctech_contact);
 	protocol_set_id(arctech_contact, "arctech_contact");
+	protocol_device_add(arctech_contact, "arctech_contact", "ArcTech Contact Sensor");
 	protocol_device_add(arctech_contact, "kaku_contact", "KlikAanKlikUit Contact Sensor");
 	protocol_device_add(arctech_contact, "dio_contact", "D-IO Contact Sensor");
 
