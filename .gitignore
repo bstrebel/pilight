@@ -6,6 +6,7 @@ Makefile
 *.cmake
 CMakeCache.txt
 cmake_uninstall.cmake.in
+install_manifest.txt
 
 # Headers created when running cmake
 inc/defines.h
@@ -25,6 +26,7 @@ pilight-send
 pilight-sha256
 pilight-uuid
 *.exe
+*.cbp
 
 # JSON files in base directory - often used for local testing of different configs
 /*.json
